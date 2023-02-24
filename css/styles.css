@@ -47,12 +47,17 @@ p {
 }
 
 .nav-item {
-    padding: 0 18px;
+    padding: 0 8px;
+    font-weight: 400;
 }
 
 .nav-link {
     font-size: 1.2rem;
-    font-family: "Montserrat-Light";
+    font-family: "Montserrat";
+    font-weight: 400;
+    padding: 0px 5px;
+    right: 10%;
+    color: #ffffff;
 }
 
 /* Download Button */
@@ -69,6 +74,19 @@ p {
     padding-left: 55px;
     position: absolute;
     right:20%;
+}
+
+@media (max-width: 767px) {
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        transform: rotate(0);
+        padding-left: 0px;
+        width: 50%;
+    }
 }
 
 /* Features */
@@ -129,8 +147,37 @@ p {
 #pricing {
     text-align: center;
     padding: 100px;
+    padding-top: 60px;
 }
 
 .pricing-col {
     padding: 3% 2%;
+}
+
+/* Call to Acion */
+
+#cta {
+    background-color: #ff4c68;
+    text-align: center;
+    color: #fff;
+}
+
+.cta-text {
+    font-size: 2.8rem;
+    font-weight: bold;
+    padding-top: 55px;
+    margin: 0% 15% 0%;
+}
+
+/* Footer */
+
+#footer {
+    background-color: #fff;
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.foot-icon {
+    color:black;
+    margin: 20px 10px;
 }
